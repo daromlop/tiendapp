@@ -1,0 +1,32 @@
+[
+  {
+    "user": "techlover92",
+    "rating": 4,
+    "title": "Great quality and design",
+    "review": "I bought this product a couple of weeks ago, and I’m very satisfied. The material quality is excellent, and the design is modern and functional. The only downside is that I expected the battery to last a bit longer, but overall, it’s a good purchase."
+  },
+  {
+    "user": "AnaGamerX",
+    "rating": 5,
+    "title": "Amazing, exceeded my expectations",
+    "review": "I’m impressed with how well it works. I’ve been using it daily, and I haven’t had any issues. I’d definitely recommend this product to anyone looking for something reliable and well-priced. A 10/10 for me!"
+  },
+  {
+    "user": "foodie_joel",
+    "rating": 4,
+    "title": "Delivers what it promises",
+    "review": "The product does exactly what it says. I love how easy it is to use and how practical it is. However, I think they could have included more detailed instructions in the manual. Other than that, everything is perfect!"
+  },
+  {
+    "user": "marcusDIY",
+    "rating": 3,
+    "title": "It’s okay, but I expected more",
+    "review": "It’s not bad, but I think there’s room for improvement. Some details could be better refined, and I noticed that the main functionality isn’t as intuitive as I thought. For the price, I expected something more advanced. Still, it’s not a bad choice."
+  },
+  {
+    "user": "LunaTravels",
+    "rating": 5,
+    "title": "I love it!",
+    "review": "This product has been a total game changer for my daily routine. Easy to set up, aesthetically pleasing, and very efficient. Plus, it arrived super fast and well-packaged. I’m considering buying another one as a gift for a friend."
+  }
+]

@@ -1,0 +1,56 @@
+<div class="container">
+  @if (loading) {
+  <div class="container text-center mt-5 mb-5">
+    <h3>Loading...</h3>
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  }
+
+  @if (!loading) {
+  <div class="card mb-4 mt-4 pt-4 pb-2">
+    <div class="row g-3">
+      <div class="col-md-5">
+        <img src="{{product?.image}}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title">{{product?.title}}</h5>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <h4>{{product?.price | currency }}</h4>
+          <p class="card-text">{{product?.description}}</p>
+          <button type="button" class="btn btn-primary me-1"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
+          <button type="button" class="btn btn-primary ms-1"><i class="bi bi-bag-check me-1"></i>Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="reviews">
+    @for (review of reviews; track $index) {
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex flex-row align-items-center">
+          <i class="bi bi-person-circle me-1"></i>
+          <h6 class="m-0">{{review.user}}</h6>
+        </div>
+        <h5 class="card-title">{{ review.title }}</h5>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star"></i>
+        <p class="card-text">{{ review.review }}</p>
+        <a href="#" class="card-link">Helpful</a>
+        <a href="#" class="card-link">Report</a>
+      </div>
+    </div>
+    }
+  </div>
+  }
+</div>

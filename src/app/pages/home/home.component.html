@@ -1,0 +1,32 @@
+<div class="container mt-5 mb-5">
+  @if (loading) {
+  <div class="container text-center">
+    <h3>Loading...</h3>
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  }
+
+  @if (!loading) {
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+    @for (product of productList; track $index) {
+    <div class="col" (click)="navigate(product.id, product.category)">
+      <div class="card p-1" style="width: 18rem;">
+        <img src="{{product?.image}}" class="card-img-top" alt="{{product?.title}}">
+        <div class="card-body pb-2">
+          <h5 class="card-title">{{product.title | truncate:20}}</h5>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <h4 class="mb-0">{{product?.price | currency }}</h4>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  }
+
+</div>

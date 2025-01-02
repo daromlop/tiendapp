@@ -1,0 +1,6 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9ede9;
+  border: 1px solid #f4cdc0;
+  border-radius: 15px;
+}

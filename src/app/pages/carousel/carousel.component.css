@@ -1,0 +1,20 @@
+.carousel-item button {
+  background-color: #db6930;
+  border: 1px solid #db6930;
+  font-weight: 500;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  filter: brightness(50%);
+}
+
+.c-large {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

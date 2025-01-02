@@ -1,0 +1,30 @@
+.header-cover {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.header-cover img {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.header-cover-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header-cover-description h1 {
+  font-size: 1.25em;
+}
+
+/* Card */
+
+.card {
+  border: 0px;
+  border-radius: 0;
+}

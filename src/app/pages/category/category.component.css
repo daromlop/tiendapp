@@ -1,0 +1,13 @@
+.card {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.card img {
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.bi-star-fill {
+  color: orange;
+}

@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+}
+
+.card {
+  margin: 0 auto;
+  border: 0px;
+}
+
+.reviews i {
+  font-size: 1.5em;
+}
+
+.card img {
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+}
+
+.bi-star-fill {
+  color: orange;
+}
